@@ -1,0 +1,209 @@
+ 1. Introduction
+
+1.1 Background and Motivation
+
+* Large-aperture satellite antennas (≥12 m)
+* Challenges: mass, inertia, precision pointing, structural stiffness
+* Limitations of conventional serial and single-DOF drive systems
+
+1.2 Parallel Robots for Large Antenna Actuation
+
+* Advantages of 6-DOF parallel mechanisms (load capacity, rigidity, accuracy)
+* Relevance of Stewart / Gough–Stewart–type platforms
+
+1.3 Research Gap and Problem Statement
+
+* Insufficient optimization studies focused on large-mass antenna driving
+* Lack of integrated structural–workspace–force optimization for antenna applications
+
+1.4 Contributions of This Paper
+Clearly list 3–5 contributions, for example:
+
+* Development of a parametric structural model of a 6-DOF parallel robot for a 12 m antenna
+* Definition of antenna-driven performance constraints
+* Multi-objective optimization of geometric parameters
+* Validation via kinematic, static, and dynamic analyses
+
+
+ 2. Related Work and Literature Review
+
+2.1 6-DOF Parallel Robots and Stewart Platforms
+
+* Classical configurations and variants
+* Applications in simulators, aerospace, and precision systems
+
+2.2 Structural Parameter Optimization of Parallel Mechanisms
+
+* Geometric parameter studies
+* Force transmission and stiffness optimization
+* Workspace-driven design approaches
+
+2.3 Large Satellite and Deployable Antenna Drive Mechanisms
+
+* Structural and actuation challenges of large antennas
+* Mass, inertia, pointing accuracy requirements
+
+2.4 Optimization Methods in Parallel Robot Design
+
+* PSO, GA, SQP, and hybrid approaches
+* Comparison of objective functions and constraints
+
+2.5 Summary and Identified Research Gap
+
+
+ 3. System Description and Design Requirements
+
+3.1 Application Scenario: 12 m Satellite Antenna
+
+* Antenna mass, center of gravity, inertia characteristics
+* Required motion ranges and precision
+
+3.2 Conceptual Design of the 6-DOF Parallel Robot
+
+* Chosen architecture (e.g., 6-UPS, 6-RUS, or equivalent)
+* Justification of configuration selection
+
+3.3 Coordinate Frames and Notation
+
+* Base frame, moving platform frame
+* Definition of geometric parameters
+
+3.4 Design Constraints and Performance Requirements
+
+* Workspace limits
+* Load capacity
+* Stiffness and deflection limits
+* Actuator stroke and force limits
+
+
+ 4. Kinematic and Static Modeling
+
+4.1 Inverse Kinematic Model
+
+* Mathematical formulation
+* Actuator length expressions
+
+4.2 Workspace Analysis
+
+* Reachable and usable workspace
+* Orientation capability under load
+
+4.3 Jacobian Matrix and Singularity Analysis
+
+* Velocity mapping
+* Identification of singular configurations
+
+4.4 Static Force and Load Distribution Analysis
+
+* Actuator force calculation under antenna loads
+* Worst-case loading scenarios
+
+
+ 5. Structural Parameter Optimization Framework
+
+5.1 Design Variables
+
+* Base radius
+* Platform radius
+* Rod lengths
+* Joint layout angles
+
+5.2 Objective Functions
+(Examples—adapt to your paper)
+
+* Maximize stiffness
+* Minimize actuator forces
+* Maximize usable workspace
+* Minimize structural mass or force variance
+
+5.3 Constraints
+
+* Geometric constraints
+* Actuator limits
+* Singularity avoidance
+* Structural safety limits
+
+5.4 Optimization Algorithm
+
+* Selected algorithm (PSO / GA / hybrid)
+* Parameter settings and convergence criteria
+
+5.5 Optimization Workflow
+
+
+ 6. Results and Discussion
+
+6.1 Optimized Structural Parameters
+
+* Numerical results
+* Comparison with initial design
+
+6.2 Workspace Improvement Analysis
+
+* Before vs. after optimization
+
+6.3 Force and Stiffness Performance Evaluation
+
+* Actuator load reduction
+* Structural rigidity enhancement
+
+6.4 Sensitivity and Robustness Analysis
+
+* Effect of parameter variations
+* Suitability for large antenna operation
+
+6.5 Engineering Implications for Large Antenna Systems
+
+
+ 7. Dynamic Simulation and Validation
+
+7.1 Dynamic Model Description
+
+* Mass and inertia modeling of antenna
+* Actuator dynamics
+
+7.2 Simulation Scenarios
+
+* Typical antenna tracking motion
+* Extreme load cases (wind, acceleration)
+
+7.3 Simulation Results
+
+* Displacement, force, acceleration responses
+
+7.4 Discussion of Practical Feasibility
+
+
+ 8. Conclusions and Future Work
+
+8.1 Conclusions
+
+* Summary of findings
+* Effectiveness of optimized design
+
+8.2 Limitations
+
+* Modeling assumptions
+* Simplifications
+
+8.3 Future Work
+
+* Experimental validation
+* Control strategy integration
+* Thermal and environmental effects
+
+
+ Optional Sections (Journal-Dependent)
+
+* Appendix A: Detailed mathematical derivations
+* Appendix B: Optimization parameters
+* Nomenclature
+
+
+ Why This Structure Works
+
+✔ Fully aligned with top-tier robotics and mechanisms journals
+✔ Consistent with MDPI / Elsevier / Springer paper styles
+✔ Matches the optimization + application-driven nature of your topic
+✔ Scales well for large, high-mass antenna systems
+
